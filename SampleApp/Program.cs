@@ -46,6 +46,7 @@ namespace ODataExample
             var body = new FormUrlEncodedContent(new[]
             {
                 new KeyValuePair<string, string>("grant_type", "password"),
+                new KeyValuePair<string, string>("scope", "Innovator"),
                 new KeyValuePair<string, string>("client_id", oauthServerClientId),
                 new KeyValuePair<string, string>("username", innovatorUsername),
                 new KeyValuePair<string, string>("password", innovatorPassword),
