@@ -71,8 +71,8 @@ For more information on contributing to this project, another Aras Labs project,
 
 Created by Aras Development.
 
-Cin
-Published by Eli Donahue for Aras Labs. @EliJDonahue
+### Other Contributors
+* Eli Donahue, Aras Labs @EliJDonahue
 
 ## License
 
