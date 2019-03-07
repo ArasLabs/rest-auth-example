@@ -8,10 +8,10 @@ namespace ODataExample
 {
     class Program
     {
-		const string innovatorUrl = "http://127.0.0.1/TestSP15"; // base Innovator url
+		const string innovatorUrl = "http://localhost/InnovatorServer"; // base Innovator url
 		const string innovatorUsername = "admin"; // Innovator user name
 		const string innovatorPassword = "607920B64FE136F9AB2389E371852AF2"; // MD5 hash of Innovator user password (mush be SHA hash in case of FIPS)
-        const string innovatorDatabase = "TestSP15"; // database name, could be obtained from innovatorServerUrl+"dblist.aspx"
+        const string innovatorDatabase = "InnovatorSolutions"; // database name, could be obtained from innovatorServerUrl+"dblist.aspx"
         const string oauthServerClientId = "IOMApp"; // must be registered in authorization server's oauth.config file
 
         const string innovatorServerDiscoveryUrl = innovatorUrl + "/Server/OAuthServerDiscovery.aspx";
